@@ -2,7 +2,7 @@
 
 Token yönetimi + sipariş sorgulama örneğidir. (Token management + order query example.)
 
-Token cache + zaman kontrolü + token yenileme stratejisi gerektiren gerçek dünya entegrasyonu (Real world integration requiring token cache + time control + token refresh strategy)
+Token cache + zaman kontrolü + token yenileme stratejisi gerektiren gerçek dünya entegrasyonu olarak tasarlanmıştır. (It is designed as a real world integration that requires token cache + time control + token refresh strategy.)
 
 Minimal düzeyde, modüler yapısı vardır. Sınıflar ayrılmış ve test edilebilir olarak tasarlanmıştır. 
 Zaman kontrolü vardır. Token süresini expires_in ile hesapladık.
