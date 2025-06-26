@@ -28,8 +28,11 @@ It is very suitable for the real external API integration scenario with realisti
 
 - Token bilgisi (access_token + expiration) bellekte tutulur (örneğin Singleton ya da MemoryCache).
 - Sipariş API’si çağrılmadan önce:
+- 
     A. Token süresi kontrol edilir.
+  
     B.Süresi dolmuşsa (ya da 1 dakikadan az kalmışsa) yeni token alınır.
+  
 - Token alma işlemi rate-limit altında tutulur.
 
   # Sonuç (Result)
