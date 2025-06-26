@@ -84,7 +84,7 @@ It is very suitable for the real external API integration scenario with realisti
 </table>
   
 
-# Author:
+# Yazar (Author):
 Eren Mülkoğlu
 
 
