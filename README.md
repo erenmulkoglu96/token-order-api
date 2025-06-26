@@ -31,7 +31,7 @@ It is very suitable for the real external API integration scenario with realisti
 - 
     A. Token süresi kontrol edilir.
   
-    B.Süresi dolmuşsa (ya da 1 dakikadan az kalmışsa) yeni token alınır.
+    B. Süresi dolmuşsa (ya da 1 dakikadan az kalmışsa) yeni token alınır.
   
 - Token alma işlemi rate-limit altında tutulur.
 
