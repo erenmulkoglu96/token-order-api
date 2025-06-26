@@ -78,7 +78,7 @@ It is very suitable for the real external API integration scenario with realisti
 </tr>
 <tr>
 <td>Swagger ile Endpoint denemelerimiz çalışıyor ve test yapılabiliyor</td>
-  <td>GET /get-orders endpoint Swagger’da görünüyor.</td>
+  <td>GET /get-orders endpoint Swagger’da görünüyor</td>
 </tr>
   
 </table>
