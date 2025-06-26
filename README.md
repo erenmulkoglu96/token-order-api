@@ -61,20 +61,20 @@ It is very suitable for the real external API integration scenario with realisti
 </tr>
 <tr>
 <td>Token'da token_type, expires_in, access_token gibi parametrelerin parse edilmesi yapılıyor</td>
-  <td>TokenResponse modeliyle JSON'dan çözülüyor.
+  <td>TokenResponse modeliyle JSON'dan çözülüyor
 </td>
 </tr>
 <tr>
 <td>Saatte maksimum 5 token isteği kontrolü yapılıyor</td>
-  <td>if (_requestCount >= 5) kontrolü ile mümkün.</td>
+  <td>if (_requestCount >= 5) kontrolü ile mümkün</td>
 </tr>
 <tr>
 <td>Süre bazlı token geçerliliği kontrolü</td>
-  <td>DateTime.Now < _tokenExpiration kontrolü ile süresi izlenebilmekte.</td>
+  <td>DateTime.Now < _tokenExpiration kontrolü ile süresi izlenebilmekte</td>
 </tr>
 <tr>
 <td>Anlatımlı kod, parçalanmış mantıklı sınıflar yapıldı</td>
-  <td>TokenService + OrderService ayrımı ile SOLID prensiplerine uygun olarak tasarladık</td>
+  <td>TokenService + OrderService ayrımı ile SOLID prensiplerine uygun olarak tasarladım</td>
 </tr>
 <tr>
 <td>Swagger ile Endpoint denemelerimiz çalışıyor ve test yapılabiliyor</td>
