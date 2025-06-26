@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Lbf5H9eatHQlHdJPCLSPymoELExjslHauJV4NokyUsQ=",
+  "Source": "TokenApp",
+  "BasePath": "_content/TokenApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
