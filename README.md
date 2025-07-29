@@ -1,8 +1,13 @@
 # Token Order API
 
-Token yönetimi + sipariş sorgulama örneğidir. (Token management + order query example.)
+Token yönetimi + sipariş sorgulama örneğidir. 
+(Token management + order query example.)
 
-Token cache + zaman kontrolü + token yenileme stratejisi gerektiren gerçek dünya entegrasyonu olarak tasarlanmıştır. (It is designed as a real world integration that requires token cache + time control + token refresh strategy.)
+
+Token cache + zaman kontrolü + token yenileme stratejisi gerektiren gerçek dünya entegrasyonu olarak tasarlanmıştır. 
+
+(It is designed as a real world integration that requires token cache + time control + token refresh strategy.)
+
 
 Minimal düzeyde, modüler yapısı vardır. Sınıflar ayrılmış ve test edilebilir olarak tasarlanmıştır. 
 Zaman kontrolü vardır. Token süresini expires_in ile hesapladık.
@@ -10,6 +15,7 @@ Rate limit kontrolü yaptık. 5 istekten sonra exception fırlatılıyor.
 Endpoint testleri için swagger UI görünümü yaptık. Şuanda açılıyor ve endpoint test edilebilir.
 Kod okunabilirliğini basit, düzenli ve iyi isimlendirilmiş olarak tasarladım.
 Gerçekçi senaryo uyumuyla beraber gerçek dış API entegrasyon senaryosuna çok uygundur.
+
 (It has a minimal, modular structure. Classes are designed to be separated and testable. 
 There is a time control. We calculated the token duration with expires_in. 
 We made a rate limit control. An exception is thrown after 5 requests. 
