@@ -45,7 +45,7 @@ It is very suitable for the real external API integration scenario with realisti
   
 - Token alma işlemi rate-limit altında tutulur.
 
-  # Sonuç (Result)
+# Sonuç (Result)
   
 - TokenService ile token yönetimi yapılır.
 
