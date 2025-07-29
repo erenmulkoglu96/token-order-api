@@ -6,9 +6,11 @@ Token yönetimi + sipariş sorgulama örneğidir.
 
 
 
+
 Token cache + zaman kontrolü + token yenileme stratejisi gerektiren gerçek dünya entegrasyonu olarak tasarlanmıştır. 
 
 (It is designed as a real world integration that requires token cache + time control + token refresh strategy.)
+
 
 
 
