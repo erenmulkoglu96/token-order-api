@@ -1,5 +1,11 @@
 # Token Order API
 
+
+Bu proje, JWT (JSON Web Token) tabanlı kimlik doğrulama sistemiyle güvenli API erişimi sağlayan bir .NET Web API uygulamasıdır. Kullanıcıların giriş yapmasını, token almasını ve bu token ile yetkili işlemler gerçekleştirmesini sağlar. Projede authentication, authorization, middleware, role-based erişim gibi temel güvenlik mekanizmaları uygulanmıştır.
+
+(This project is a .NET Web API application that implements secure API access using JWT (JSON Web Token) based authentication. It allows users to log in, obtain a token, and perform authorized actions using that token. Key security mechanisms such as authentication, authorization, middleware, and role-based access control are implemented.)
+
+
 Token yönetimi + sipariş sorgulama örneğidir. 
 
 (Token management + order query example.)
