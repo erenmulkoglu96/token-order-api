@@ -4,11 +4,9 @@ Token yönetimi + sipariş sorgulama örneğidir.
 
 (Token management + order query example.)
 <br></br>
-<br></br>
 Token cache + zaman kontrolü + token yenileme stratejisi gerektiren gerçek dünya entegrasyonu olarak tasarlanmıştır. 
 
 (It is designed as a real world integration that requires token cache + time control + token refresh strategy.)
-<br></br>
 <br></br>
 
 Minimal düzeyde, modüler yapısı vardır. Sınıflar ayrılmış ve test edilebilir olarak tasarlanmıştır. 
@@ -24,7 +22,6 @@ We made a rate limit control. An exception is thrown after 5 requests.
 We made a swagger UI view for endpoint tests. It is currently opening and the endpoint can be tested. 
 I designed the code readability as simple, organized and well named. 
 It is very suitable for the real external API integration scenario with realistic scenario compatibility.)
-<br></br>
 <br></br>
 
 
