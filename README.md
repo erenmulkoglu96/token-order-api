@@ -34,14 +34,14 @@ It is very suitable for the real external API integration scenario with realisti
 <br></br>
 
 
-# Hedef(Target)
+## Hedef(Target)
 
 - Token’ı sadece gerektiğinde alıyoruz.
 - Her sipariş sorgusunda önce token süresini kontrol ediyor.
 - Token expired ise yeni alır.
 - 1 saat içinde maksimum 5 token isteği sınırını geçmeyecek.
 
-# Çözüm (Solution)
+## Çözüm (Solution)
 
 - Token bilgisi (access_token + expiration) bellekte tutulur (örneğin Singleton ya da MemoryCache).
 - Sipariş API’si çağrılmadan önce:
@@ -52,7 +52,7 @@ It is very suitable for the real external API integration scenario with realisti
   
 - Token alma işlemi rate-limit altında tutulur.
 
-# Sonuç (Result)
+## Sonuç (Result)
   
 - TokenService ile token yönetimi yapılır.
 
@@ -64,7 +64,7 @@ It is very suitable for the real external API integration scenario with realisti
 
 
 
-# İstenenler ve Benim Uygulamam(Desired and My Application)
+## İstenenler ve Benim Uygulamam(Desired and My Application)
 
   <table>
 
@@ -101,7 +101,7 @@ It is very suitable for the real external API integration scenario with realisti
 </table>
   
 
-# Yazar (Author):
+## Yazar (Author):
 Eren Mülkoğlu
 
 
